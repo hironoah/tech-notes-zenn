@@ -1,0 +1,16 @@
+{
+  "name": "tech-notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zenn/Qiita技術記事管理リポジトリ",
+  "workspaces": [
+    "zenn",
+    "qiita"
+  ],
+  "scripts": {
+    "zenn:preview": "npm run preview -w zenn",
+    "zenn:new": "npm run new -w zenn",
+    "qiita:preview": "npm run preview -w qiita",
+    "qiita:publish": "npm run publish -w qiita"
+  }
+}
