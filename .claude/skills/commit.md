@@ -25,17 +25,17 @@
 - `docs`: ドキュメント更新
 
 ### scope
-- `zenn`: Zenn関連
-- `qiita`: Qiita関連
+- `article`: 記事関連
+- `book`: 本関連
 - `drafts`: 下書き関連
 - `config`: 設定関連
 - 省略可（複数箇所にまたがる場合）
 
 ### 例
 ```
-add(zenn): Vue3 Composablesの解説記事
-update(qiita): TypeScript入門の誤字修正
-fix(zenn): コードブロックの言語指定を修正
+add(article): Vue3 Composablesの解説記事
+update(article): TypeScript入門の誤字修正
+fix(article): コードブロックの言語指定を修正
 wip(drafts): React Server Componentsのネタ出し
 chore(config): zenn-cliのバージョン更新
 docs: READMEに使い方を追記

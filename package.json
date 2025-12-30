@@ -1,16 +1,14 @@
 {
-  "name": "tech-notes",
+  "name": "tech-notes-zenn",
   "version": "1.0.0",
   "private": true,
-  "description": "Zenn/Qiita技術記事管理リポジトリ",
-  "workspaces": [
-    "zenn",
-    "qiita"
-  ],
+  "description": "Zenn技術記事リポジトリ",
   "scripts": {
-    "zenn:preview": "npm run preview -w zenn",
-    "zenn:new": "npm run new -w zenn",
-    "qiita:preview": "npm run preview -w qiita",
-    "qiita:publish": "npm run publish -w qiita"
+    "preview": "zenn preview",
+    "new:article": "zenn new:article",
+    "new:book": "zenn new:book"
+  },
+  "devDependencies": {
+    "zenn-cli": "^0.1.157"
   }
 }

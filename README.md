@@ -1,18 +1,14 @@
-# tech-notes
+# tech-notes-zenn
 
-Zenn/Qiita技術記事管理リポジトリ
+Zenn技術記事リポジトリ
 
 ## 構成
 
 ```
-tech-notes/
-├── zenn/           # Zenn記事（中級者以上向け）
-│   ├── articles/
-│   ├── books/      # 本（フロントエンドアーキテクト戦略など）
-│   └── images/
-├── qiita/          # Qiita記事（初学者向け）
-│   ├── public/
-│   └── images/
+tech-notes-zenn/
+├── articles/       # 記事
+├── books/          # 本
+├── images/         # 画像
 └── drafts/         # 下書き・ネタ帳
 ```
 
@@ -24,30 +20,21 @@ npm install
 
 ## 使い方
 
-### Zenn
-
 ```bash
 # プレビュー
-npm run zenn:preview
+npm run preview
 
 # 新規記事作成
-npm run zenn:new
-```
+npm run new:article
 
-### Qiita
-
-```bash
-# プレビュー
-npm run qiita:preview
-
-# 記事公開
-npm run qiita:publish
+# 新規本作成
+npm run new:book
 ```
 
 ## 記事執筆フロー
 
 1. `drafts/idea-xxx.md` にネタを書く
 2. `feature/slug名` ブランチを切る
-3. 記事を執筆して `zenn/articles/` or `qiita/public/` に配置
+3. 記事を執筆して `articles/` に配置
 4. PRを作成してレビュー
 5. mainにマージ → 自動デプロイ
