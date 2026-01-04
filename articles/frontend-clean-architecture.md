@@ -1,5 +1,5 @@
 ---
-title: "フロントエンド アーキテクチャ実践 - 責任分離のレイヤード設計"
+title: "フロントエンドに Clean Architecture を適用したら「どこに何を書くか」迷わなくなった"
 emoji: "🏛️"
 type: "tech"
 topics: ["frontend", "vue", "react", "architecture", "cleanarchitecture"]
