@@ -6,6 +6,7 @@ out/
 .env
 .env.local
 *.local
+*.local.json
 
 # OS
 .DS_Store
