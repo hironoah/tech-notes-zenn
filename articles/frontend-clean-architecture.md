@@ -1,5 +1,5 @@
 ---
-title: "フロントエンド アーキテクチャ実践 - 6万行を一人で書いて辿り着いた形"
+title: "フロントエンド アーキテクチャ実践 - 責任分離のレイヤード設計"
 emoji: "🏛️"
 type: "tech"
 topics: ["frontend", "vue", "react", "architecture", "cleanarchitecture"]
