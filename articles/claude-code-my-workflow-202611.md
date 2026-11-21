@@ -3,7 +3,7 @@ title: "僕の Claude Code 開発のやり方（2026年11月）- AI に書かせ
 emoji: "🧭"
 type: "tech"
 topics: ["claudecode", "ai", "codex", "aiagent"]
-published: false
+published: true
 ---
 
 今の自分のやり方の棚卸しです。半年後には変わっていると思うので、2026 年 11 月時点の記録として書きます。
